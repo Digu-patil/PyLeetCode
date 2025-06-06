@@ -46,24 +46,32 @@ class Solution(object):                                     # Define Class
 '''  
 # T2
 
-arr = [3,2,3]
+# arr = [3,2,3]
+# target = 6
+
+# class Solution(object):
+#     def twoSum(self, nums, target):
+#         for i in range(len(nums)-1):
+#             current_element = nums[i]
+#             required_element = target - current_element
+#             try :
+#                 required_index = nums.index(required_element,i+1)
+#                 output = [i,required_index]
+#                 break
+#             except ValueError :
+#                 continue
+#         return output
+
+num = [3,2,3]
 target = 6
 
-class Solution(object):
-    def twoSum(self, nums, target):
-        """
-        :type nums: List[int]
-        :type target: int
-        :rtype: List[int]
-        """
-        for i in range(len(nums)-1):
-            current_element = nums[i]
-            required_element = target - current_element
-            try :
-                required_index = nums.index(required_element,i+1)
-                output = [i,required_index]
-                break
-            except ValueError :
-                continue
-        return output
-
+for index, value in enumerate(num):
+    current_element = num[index]
+    required_element = target - current_element
+    try :
+        required_index = num.index(required_element,index+1)
+        output = [index,required_index]
+        break
+    except ValueError :
+        continue
+print(output)
