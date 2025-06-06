@@ -75,3 +75,21 @@ for index, value in enumerate(num):
     except ValueError :
         continue
 print(output)
+
+
+
+# Ideal Solution
+# This runs in O(n) time as iterating through a dict takes O(1)
+num = [3,2,3]
+target = 6
+
+class Solution(object):
+    def twoSum(self, nums, target):
+        # We will create a dictionary to store the values
+        store = {}
+        for i in range(len(nums)):
+            required_element = target - nums[i]
+            if required_element in store:
+                return [i,store[required_element]]
+            store[nums[i]] = i
+        return []
