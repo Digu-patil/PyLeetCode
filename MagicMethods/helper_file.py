@@ -13,3 +13,8 @@ if __name__ == "__main__":
     print("helper file is running directly using the helper file")
 else :
     print("helper file is running as an imported fuction")
+
+'''
+Also note that when we run the helper file in the main file
+this will create an pyc file for faster execution
+'''
