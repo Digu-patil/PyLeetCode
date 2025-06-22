@@ -28,3 +28,42 @@ while n != 0 :
     n = int(n/10)
 print(reversed)
 
+'''
+Palindrome Check for string without string sclicing
+'''
+
+
+def easy_pythonic_way(name):
+    print(name[::-1])
+
+def rev_str(name):
+    reversed_str = ''
+    for char in name:
+        reversed_str = char + reversed_str
+    return reversed_str
+
+def while_loop(name):
+    name = list(name)
+    start = 0
+    end = len(name) - 1
+    while (start < end):
+        temp = name[start]
+        name[start]= name[end]
+        name[end] = temp
+        start +=1
+        end -=1
+    return name
+
+name = 'Digvijay'
+
+print(easy_pythonic_way(name))
+print(rev_str(name))
+print(while_loop(name))
+
+
+
+strings = 'abcde'
+rev = ''
+for i in strings:
+    rev = i + rev
+    print(rev)
