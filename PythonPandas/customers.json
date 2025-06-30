@@ -1,0 +1,6 @@
+[
+  {"customer_id": 1, "name": "Alice Johnson", "email": "alice@example.com", "country": "USA"},
+  {"customer_id": 2, "name": "Bob Smith", "email": "bob@example.com", "country": "Canada"},
+  {"customer_id": 3, "name": "Carol Lee", "email": "carol@example.com", "country": "USA"},
+  {"customer_id": 4, "name": "David Brown", "email": "david@example.com", "country": "UK"}
+]

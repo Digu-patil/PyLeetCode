@@ -1,0 +1,6 @@
+[
+  {"order_id": 101, "customer_id": 1, "order_date": "2024-06-01", "total": 300},
+  {"order_id": 102, "customer_id": 2, "order_date": "2024-06-03", "total": 150},
+  {"order_id": 103, "customer_id": 1, "order_date": "2024-06-10", "total": 200},
+  {"order_id": 104, "customer_id": 3, "order_date": "2024-06-15", "total": 450}
+]

@@ -1,0 +1,7 @@
+[
+  {"product_id": 201, "name": "Keyboard", "category_id": 301, "vendor_id": 401},
+  {"product_id": 202, "name": "Monitor", "category_id": 302, "vendor_id": 402},
+  {"product_id": 203, "name": "Mouse", "category_id": 301, "vendor_id": 401},
+  {"product_id": 204, "name": "Webcam", "category_id": 303, "vendor_id": 403},
+  {"product_id": 205, "name": "Printer", "category_id": 304, "vendor_id": 402}
+]
